@@ -14,8 +14,50 @@
     codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
 
     val html = Source.fromURL("http://www.dxcontent.com/SDB_SpellBlock.asp?SDBID=1543")
-    val s = html.mkString
-    println(s)
+    val htmlString = html.mkString
+    println(htmlString)
+
+
+    if(htmlString.contains("sorcerer")) {
+      val indexLevel = htmlString.indexOf("sorcerer")
+      val levelSorcerer = htmlString.charAt(indexLevel + 16)
+      println(levelSorcerer)
+
+
+      val indexName = htmlString.indexOf("heading'><P>") + "heading'><P>".length
+      val nameSpell = htmlString.substring(indexName, htmlString.indexOf("<", indexName))
+      println("nameSpell= " + nameSpell)
+
+      val indexComponent = htmlString.indexOf("<b>Components</b>") + "<b>Components</b>".length
+      val components = htmlString.substring(indexComponent, htmlString.indexOf("<", indexComponent))
+      println("components= " + components)
+
+      var isSpellResistance = false
+
+      if(htmlString.contains("Spell Resistance")) {
+        val indexSpellResistance = htmlString.indexOf("Spell Resistance") + "Spell Resistance".length
+        val spellResistance = htmlString.substring(indexSpellResistance, htmlString.indexOf("</p>", indexSpellResistance))
+        isSpellResistance = spellResistance.contains("yes")
+        println("isSpellResistance= " + isSpellResistance)
+      }
+    }
+
+    /*val conf = new SparkConf()
+      .setAppName("Petit exemple")
+      .setMaster("local[*]")
+    val sc = new SparkContext(conf)
+    sc.setLogLevel("ERROR")
+
+
+    val tableau: Array[Int] = Array(1,2,3,4,5)
+
+    val resultatRDD = sc.makeRDD(tableau).map( element => {
+      element * 3
+    })*/
+
+
+
+
 /*
     val conf = new SparkConf()
       .setAppName("Petit exemple")
