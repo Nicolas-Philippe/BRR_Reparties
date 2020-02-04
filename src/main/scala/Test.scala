@@ -1,13 +1,22 @@
 
-
+  import scala.io.Source
+  import scala.io.Codec
+  import java.nio.charset.CodingErrorAction
   import org.apache.spark.rdd.RDD
   import org.apache.spark.{SparkConf, SparkContext}
-
   import scala.collection.mutable.ArrayBuffer
+
 
   object freestyle extends App
   {
+    implicit val codec = Codec("UTF-8")
+    codec.onMalformedInput(CodingErrorAction.REPLACE)
+    codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
 
+    val html = Source.fromURL("http://www.dxcontent.com/SDB_SpellBlock.asp?SDBID=1543")
+    val s = html.mkString
+    println(s)
+/*
     val conf = new SparkConf()
       .setAppName("Petit exemple")
       .setMaster("local[*]")
@@ -61,7 +70,7 @@
       }
       resultats
     }) .collect(). foreach(  e => println(e))
-
+*/
 
     //
     //  println("******")
