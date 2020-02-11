@@ -12,16 +12,19 @@
     implicit val codec = Codec("UTF-8")
     codec.onMalformedInput(CodingErrorAction.REPLACE)
     codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
-    var spellArray: Array[Spell] = Array()
+    var size = 100 //1975
+    var spellArray = new Array[Spell](size)
 
-    for(i <- 0 to 10) { //1975
+    for(i <- 1 to size) { //1975
+
       var stringUrl = "http://www.dxcontent.com/SDB_SpellBlock.asp?SDBID=" + i
       val html = Source.fromURL(stringUrl)
       val htmlString = html.mkString
 
-      val indexLevel = htmlString.indexOf("<B>level</b>") + "<B>level</b>".length
-      val levelSorcerer = htmlString.substring(indexLevel, htmlString.indexOf("</p", indexLevel))
-      //println(levelSorcerer)
+      if(htmlString.contains("Level")) {
+        val indexLevel = htmlString.indexOf("<B>Level</b>") + "<B>Level</b>".length
+        val levelSorcerer = htmlString.substring(indexLevel, htmlString.indexOf("</p", indexLevel))
+        //println(levelSorcerer)
 
         val indexName = htmlString.indexOf("heading'><P>") + "heading'><P>".length
         val nameSpell = htmlString.substring(indexName, htmlString.indexOf("<", indexName))
@@ -33,13 +36,17 @@
 
         var isSpellResistance = false
 
-        if(htmlString.contains("Spell Resistance")) {
+        if (htmlString.contains("Spell Resistance")) {
           val indexSpellResistance = htmlString.indexOf("Spell Resistance") + "Spell Resistance".length
           val spellResistance = htmlString.substring(indexSpellResistance, htmlString.indexOf("</p>", indexSpellResistance))
           isSpellResistance = spellResistance.contains("yes")
-          println("isSpellResistance= " + isSpellResistance)
+          //println("isSpellResistance= " + isSpellResistance)
         }
-        spellArray(i) = new Spell(levelSorcerer.toString, nameSpell, components, isSpellResistance)
+        spellArray(i - 1) = new Spell(levelSorcerer.toString, nameSpell, components, isSpellResistance)
+      }else {
+        spellArray(i - 1) = new Spell("Error", "Error", "Error", false)
+      }
+
 
     }
 
@@ -63,8 +70,9 @@
 
 
 
-
 /*
+
+
     val conf = new SparkConf()
       .setAppName("Petit exemple")
       .setMaster("local[*]")
@@ -78,8 +86,10 @@
       element * 3
     }).cache()
 
-    resultatRDD.collect().foreach(  e => print(e))
+    resultatRDD.collect().foreach(  e => print(e))*/
 
+/*
+    val tableau: Array[Int] = Array(1,2,3,4,5)
     println("*****")
     //On veut garder le plus petit de toute la collection
     val a =  resultatRDD.reduce(   (a, b) => {
