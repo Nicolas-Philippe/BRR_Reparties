@@ -12,35 +12,37 @@
     implicit val codec = Codec("UTF-8")
     codec.onMalformedInput(CodingErrorAction.REPLACE)
     codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
+    var spellArray: Array[Spell] = Array()
 
-    val html = Source.fromURL("http://www.dxcontent.com/SDB_SpellBlock.asp?SDBID=1543")
-    val htmlString = html.mkString
-    //println(htmlString)
+    for(i <- 0 to 10) { //1975
+      var stringUrl = "http://www.dxcontent.com/SDB_SpellBlock.asp?SDBID=" + i
+      val html = Source.fromURL(stringUrl)
+      val htmlString = html.mkString
 
+      val indexLevel = htmlString.indexOf("<B>level</b>") + "<B>level</b>".length
+      val levelSorcerer = htmlString.substring(indexLevel, htmlString.indexOf("</p", indexLevel))
+      //println(levelSorcerer)
 
-    if(htmlString.contains("sorcerer")) {
-      val indexLevel = htmlString.indexOf("sorcerer")
-      val levelSorcerer = htmlString.charAt(indexLevel + 16)
-      println(levelSorcerer)
+        val indexName = htmlString.indexOf("heading'><P>") + "heading'><P>".length
+        val nameSpell = htmlString.substring(indexName, htmlString.indexOf("<", indexName))
+        //println("nameSpell= " + nameSpell)
 
+        val indexComponent = htmlString.indexOf("<b>Components</b>") + "<b>Components</b>".length
+        val components = htmlString.substring(indexComponent, htmlString.indexOf("<", indexComponent))
+        //println("components= " + components)
 
-      val indexName = htmlString.indexOf("heading'><P>") + "heading'><P>".length
-      val nameSpell = htmlString.substring(indexName, htmlString.indexOf("<", indexName))
-      println("nameSpell= " + nameSpell)
+        var isSpellResistance = false
 
-      val indexComponent = htmlString.indexOf("<b>Components</b>") + "<b>Components</b>".length
-      val components = htmlString.substring(indexComponent, htmlString.indexOf("<", indexComponent))
-      println("components= " + components)
+        if(htmlString.contains("Spell Resistance")) {
+          val indexSpellResistance = htmlString.indexOf("Spell Resistance") + "Spell Resistance".length
+          val spellResistance = htmlString.substring(indexSpellResistance, htmlString.indexOf("</p>", indexSpellResistance))
+          isSpellResistance = spellResistance.contains("yes")
+          println("isSpellResistance= " + isSpellResistance)
+        }
+        spellArray(i) = new Spell(levelSorcerer.toString, nameSpell, components, isSpellResistance)
 
-      var isSpellResistance = false
-
-      if(htmlString.contains("Spell Resistance")) {
-        val indexSpellResistance = htmlString.indexOf("Spell Resistance") + "Spell Resistance".length
-        val spellResistance = htmlString.substring(indexSpellResistance, htmlString.indexOf("</p>", indexSpellResistance))
-        isSpellResistance = spellResistance.contains("yes")
-        println("isSpellResistance= " + isSpellResistance)
-      }
     }
+
 
     class Spell(var levelSorcerer: String = "", var nameSpell: String = "", var components: String  = "", var spellResistant: Boolean = false) extends Serializable {}
 
@@ -51,9 +53,9 @@
     sc.setLogLevel("ERROR")
 
 
-    val spellArray: Array[Spell] = Array(
+    /*var spellArray: Array[Spell] = Array()
       new Spell("1", "a spell", "V", true),
-      new Spell("2", "an other spell", "VF", false))
+      new Spell("2", "an other spell", "VF", false)*/
 
     val resultatRDD = sc.makeRDD(spellArray)
     val pairs = resultatRDD.map(element => (element, 1))
