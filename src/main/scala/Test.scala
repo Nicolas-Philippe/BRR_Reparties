@@ -12,7 +12,7 @@
     implicit val codec = Codec("UTF-8")
     codec.onMalformedInput(CodingErrorAction.REPLACE)
     codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
-    var size = 100 //1975
+    var size = 200 //1975
     var spellArray = new Array[Spell](size)
 
     for(i <- 1 to size) { //1975
@@ -65,8 +65,15 @@
       new Spell("2", "an other spell", "VF", false)*/
 
     val resultatRDD = sc.makeRDD(spellArray)
-    val pairs = resultatRDD.map(element => (element, 1))
-    pairs.collect().foreach(element => println(element._1.nameSpell))
+    //val pairs = resultatRDD.map(element => (element, 1))
+    //pairs.collect().foreach(element => println(element._1.nameSpell))
+    resultatRDD.filter(element => element.components.equals(" V"))
+      .filter(element => element.levelSorcerer.contains("sorcerer"))
+      /*.filter(element => { //DOESN'T WORK
+        val indexLevel = element.nameSpell.indexOf("sorcerer/wizard ") + "sorcerer/wizard ".length
+        val level = element.nameSpell.substring(indexLevel, indexLevel + "sorcerer/wizard ".length + 1)
+        level == "1" || level == "2" || level == "3" || level == "4"
+      })*/.foreach(element => println(element.nameSpell))
 
 
 
