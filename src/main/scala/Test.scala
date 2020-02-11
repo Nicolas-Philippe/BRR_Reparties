@@ -15,7 +15,7 @@
 
     val html = Source.fromURL("http://www.dxcontent.com/SDB_SpellBlock.asp?SDBID=1543")
     val htmlString = html.mkString
-    println(htmlString)
+    //println(htmlString)
 
 
     if(htmlString.contains("sorcerer")) {
@@ -42,18 +42,22 @@
       }
     }
 
-    /*val conf = new SparkConf()
-      .setAppName("Petit exemple")
+    class Spell(var levelSorcerer: String = "", var nameSpell: String = "", var components: String  = "", var spellResistant: Boolean = false) extends Serializable {}
+
+    val conf = new SparkConf()
+      .setAppName("A spell for a wizard")
       .setMaster("local[*]")
     val sc = new SparkContext(conf)
     sc.setLogLevel("ERROR")
 
 
-    val tableau: Array[Int] = Array(1,2,3,4,5)
+    val spellArray: Array[Spell] = Array(
+      new Spell("1", "a spell", "V", true),
+      new Spell("2", "an other spell", "VF", false))
 
-    val resultatRDD = sc.makeRDD(tableau).map( element => {
-      element * 3
-    })*/
+    val resultatRDD = sc.makeRDD(spellArray)
+    val pairs = resultatRDD.map(element => (element, 1))
+    pairs.collect().foreach(element => println(element._1.nameSpell))
 
 
 
