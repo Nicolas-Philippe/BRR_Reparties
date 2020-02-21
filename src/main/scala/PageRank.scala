@@ -43,7 +43,7 @@ object PageRank extends App
     array.foreach(arrayList => size += arrayList.size())
     val resultList = new Array[(String, Double)](size)
     var i = 0
-    for(j <- 0 until array.length) {
+    for(j <- array.indices) {
       for(k <- 0 until array(j).size()) {
         resultList(i) = array(j).get(k)
         i+=1
