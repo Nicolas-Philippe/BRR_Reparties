@@ -2,9 +2,15 @@
   import scala.io.Source
   import scala.io.Codec
   import java.nio.charset.CodingErrorAction
+
   import org.apache.spark.rdd.RDD
   import org.apache.spark.{SparkConf, SparkContext}
+
   import scala.collection.mutable.ArrayBuffer
+  import org.apache.spark.sql.{Row, SparkSession}
+  import org.apache.spark.sql.types.{BooleanType, StringType, StructField, StructType}
+
+
 
 
   object freestyle extends App
@@ -12,7 +18,7 @@
     implicit val codec = Codec("UTF-8")
     codec.onMalformedInput(CodingErrorAction.REPLACE)
     codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
-    var size = 200 //1975
+    var size = 200//1975
     var spellArray = new Array[Spell](size)
 
     for(i <- 1 to size) { //1975
@@ -42,10 +48,11 @@
       }else {
         spellArray(i - 1) = new Spell("Error", "Error", "Error", false)
       }
+      println(i)
     }
 
-
     class Spell(var levelSorcerer: String = "", var nameSpell: String = "", var components: String  = "", var spellResistant: Boolean = false) extends Serializable {}
+
 
     val conf = new SparkConf()
       .setAppName("A spell for a wizard")
@@ -53,9 +60,9 @@
     val sc = new SparkContext(conf)
     sc.setLogLevel("ERROR")
 
+    val resultatRDD = sc.makeRDD(spellArray) //met les data dans la rdd
 
 
-    val resultatRDD = sc.makeRDD(spellArray)
     resultatRDD.filter(element => element.components.equals(" V"))
       .filter(element => element.levelSorcerer.contains("sorcerer"))
       .filter(element => {
@@ -64,4 +71,22 @@
         level == "1" || level == "2" || level == "3" || level == "4"
       }).foreach(element => println(element.nameSpell))
 
+
+    val sqlContext = new org.apache.spark.sql.SQLContext(sc)
+
+    val schema = StructType(Array(
+      StructField("levelSorcere", StringType),
+      StructField("nameSpell", StringType),
+      StructField("components", StringType),
+      StructField("spellResistance", BooleanType)
+    ))
+
+    val rowRDD = resultatRDD.map(element => Row(element.levelSorcerer,
+                                element.nameSpell, element.components,
+                                element.spellResistant))
+
+    val dataFrame = sqlContext.createDataFrame(rowRDD,schema)
+    dataFrame.registerTempTable("allSpell")
+    val results = sqlContext.sql("SELECT * FROM allSpell")
+    println(results);
   }
