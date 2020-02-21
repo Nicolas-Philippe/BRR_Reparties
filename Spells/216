@@ -1,0 +1,126 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=215'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=217'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: PFRPG Core</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Fog Cloud</p></div><P class='SPDet'><b>School</b> conjuration (creation); <B>Level</b> druid 2, magus 2, sorcerer/wizard 2, witch 2, shaman 2</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 1 standard action</p><P class='SPDet'><b>Components</b> V, S</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> medium (100 ft. + 10 ft. level)</p><P class='SPDet'><b>Effect</b> fog spreads in 20-ft. radius</p><P class='SPDet'><b>Duration</b> 10 min./level</p><P class='SPDet'><b>Saving Throw</b> none; <b>Spell Resistance</b> no</p><div class='Sep1'>Description</div><div class='SPDesc'><p>A bank of fog billows out from the point you designate. The fog obscures all sight, including darkvision, beyond 5 feet. A creature within 5 feet has concealment (attacks have a 20% miss chance).</p><p>Creatures farther away have total concealment (50% miss chance, and the attacker can't use sight to locate the target).</p><p>A moderate wind (11+ mph) disperses the fog in 4 rounds; a strong wind (21+ mph) disperses the fog in 1 round.</p><p>The spell does not function underwater.</p></div><div class='Sep1'>Domains</div><div class='SPDesc'><P>Water, Weather</P></div><div class='heading'><P>Mythic Fog Cloud</p></div><div class='SPDesc'><p>The radius of the fog increases to 50 feet.</p><p><b>Augmented (3rd):</b> If you expend two uses of mythic power, the fog's radius changes to 500 feet, and its height changes to 100 feet. Winds can't dissipate the fog unless the area of the wind affects the entire area of the augmented mythic fog cloud. If you're at least 6th tier and instead expend three uses of mythic power, the range increases to 1 mile, the fog's radius changes to 1 mile, and its height changes to 500 feet. The cloud is as resistant to wind as the 3rd-tier augmented version.</p></div>
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=830'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=832'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: APG</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Pied Piping</p></div><P class='SPDet'><b>School</b> enchantment (compulsion) [mind-affecting, sonic]; <B>Level</b> bard 6</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 1 standard action</p><P class='SPDet'><b>Components</b> V or F (musical instrument)</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> 90 ft.</p><P class='SPDet'><b>Area</b> 90-ft.-radius emanation, centered on you</p><P class='SPDet'><b>Duration</b> concentration + 1 round/level</p><P class='SPDet'><b>Saving Throw</b> Will partial; see text; <b>Spell Resistance</b> yes</p><div class='Sep1'>Description</div><div class='SPDesc'><p>You call forth a melody so compelling and attractive that creatures belonging to a group with a specific, identifiable physical trait (such as type, subtype, age, gender, or hair color) find it almost impossible not to approach and follow you. You choose the nature of the creatures you seek to attract when you cast the spell and, once you make this choice, cannot alter it. You can only use physical traits to determine your audience. You can never use social and other more voluntary criteria (such as alignment, religion, nationality, or class) to select targets for this spell.</p><p>Eligible creatures must make a saving throw each round spent within the area of the spell and, once they fail, approach you at their normal movement speed and stand as close to you as possible without actually entering an occupied square.</p><p>If you move, they do their best to maintain their proximity to you and follow. Affected creatures can take no actions other than listening to your music and following you if you move.</p><p>Those entering the area while the spell is in effect must also successfully save or be compelled to come to you.</p><p>The attractive power of the spell does not cause affected creatures to put themselves in jeopardy and they have enough presence of mind to avoid or negotiate around obstacles and other perilous hazards. If unable to approach or follow you without endangering themselves, they simply wait, swaying to the music, until you pass out of range, at which point they regain their senses after 1 round/caster level. If circumstances change once you move out of range, making it possible for affected creatures to resume their attempts to get near you they do so, and, if they manage to return to within the area of the spell before it wears off, the spell continues as normal.</p><p>If attacked, affected creatures can take defensive measures, even going so far as to avoid existing threats by moving out of the area of the spell, but cannot make attacks themselves or take any other actions until the effects of the spell wear off. The effects of the spell persist for 1 round/caster level even after you stop concentrating. Once the spell ceases, the affected creatures continue to stay near you until the effects of the spell wear off.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - Advanced Players Guide.</div>
+    <div class="Sec15CW_Body">Advanced Players Guide, copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn.    </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

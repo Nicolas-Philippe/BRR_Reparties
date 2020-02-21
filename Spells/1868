@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1867'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1869'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: Advanced Class Guide</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Climbing Beanstalk</p></div><P class='SPDet'><b>School</b> conjuration (creation); <B>Level</b> druid 2, witch 2</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 1 standard action</p><P class='SPDet'><b>Components</b> V, S, DF</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> close (25 ft. + 5 ft./2 levels)</p><P class='SPDet'><b>Effect</b> 5-ft. square of climbable beanstalks</p><P class='SPDet'><b>Duration</b> instantaneous</p><div class='Sep1'>Description</div><div class='SPDesc'><p>You cause a thick, sturdy beanstalk to sprout from the ground and grow upward to a height of 10 feet + 5 feet per 2 caster levels. The growing stalk anchors itself to sturdy objects such as walls or ceilings, and grows around objects that do not fully obstruct its square (such as tree branches), but is stopped by solid obstacles. The beanstalk provides numerous hand- and footholds; its climb DC 5. The beanstalk can support up to 200 pounds plus 50 pounds per caster level, or double that amount if anchored on its upper end. If it anchors itself to a sturdy mobile object (such as a ship or a siege engine), breaking the object free requires a DC 23 Strength check or cutting through the beanstalk (hardness 2, 40 hp).</p><p>If the ground is capable of supporting plant life, the beanstalk continues to live as a normal plant, and it produces nutritious (if unappetizing) beans. Otherwise, the plant dies after 1d6 hours; its husk remains as durable as a small tree.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - .</div>
+    <div class="Sec15CW_Body">, copyright , ;     </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

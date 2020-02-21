@@ -18,14 +18,23 @@
     implicit val codec = Codec("UTF-8")
     codec.onMalformedInput(CodingErrorAction.REPLACE)
     codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
-    var size = 200//1975
+    var size = 1975
     var spellArray = new Array[Spell](size)
 
+    /*
     for(i <- 1 to size) { //1975
-
       var stringUrl = "http://www.dxcontent.com/SDB_SpellBlock.asp?SDBID=" + i
       val html = Source.fromURL(stringUrl)
       val htmlString = html.mkString
+      reflect.io.File("Spells/" + i).writeAll(htmlString)
+    }
+    */
+
+
+    for(i <- 1 to size) { //1975
+      val html = Source.fromFile("Spells/" + i).getLines()
+      val htmlString = html.mkString
+
 
       if(htmlString.contains("Level")) {
         val indexLevel = htmlString.indexOf("<B>Level</b>") + "<B>Level</b>".length

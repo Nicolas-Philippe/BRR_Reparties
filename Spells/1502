@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1501'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1503'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: Advanced Race Guide</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Fire Trail</p></div><P class='SPDet'><b>School</b> transmutation [fire]; <B>Level</b> alchemist 3, magus 3, sorcerer/wizard 3, bloodrager 3</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 1 standard action</p><P class='SPDet'><b>Components</b> V, S</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> personal</p><P class='SPDet'><b>Effect</b> trail of flame that follows the caster's movements; see text</p><P class='SPDet'><b>Duration</b> 1 round/level</p><P class='SPDet'><b>Saving Throw</b> none; <b>Spell Resistance</b> yes</p><div class='Sep1'>Description</div><div class='SPDesc'><p>When you cast this spell, flammable liquid oozes from your pores, dripping onto the ground and spontaneously combusting. The flame does not harm you. During this spell's duration, each time you leave your space, you create a trail of fire that burns within the spaces you move through for 1 round before it burns out. You can leave up to 60 feet of flame trail each round, assuming you are Small or Medium. If you are larger than Medium, the maximum trail length is reduced based on your size. If you are Large, you can leave a trail up to 30 feet long (and 10 feet wide), and if you are Huge, you can leave a trail up to 15 feet long (and 15 feet wide); even larger casters can only leave a trail up to 10 feet long (and as wide as your space) each round. You choose where to leave a flame trail. Creatures that start their turn adjacent to the flame trail take 1d6 points of fire damage. Creatures that start their turn within the flame trail or that enter an area of flame take a number of points of fire damage equal to 1d6 + 1 per caster level (maximum +10). If a creature moves into an area of the flame trail multiple times in a round, it takes this damage each time it enters the area of the flame trail. Flammable objects in or adjacent to the fire trail catch fire.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - Pathfinder Roleplaying Game Advanced Race Guide.</div>
+    <div class="Sec15CW_Body">Pathfinder Roleplaying Game Advanced Race Guide, copyright 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.    </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

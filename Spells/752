@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=751'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=753'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: APG</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Enemy Hammer</p></div><P class='SPDet'><b>School</b> transmutation; <B>Level</b> sorcerer/wizard 6</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 1 standard action</p><P class='SPDet'><b>Components</b> V, S, M (puppet strings)</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> long (400 ft. + 40 ft./level)</p><P class='SPDet'><b>Targets</b> one creature</p><P class='SPDet'><b>Duration</b> 1 round/level (D)</p><P class='SPDet'><b>Saving Throw</b> Fortitude partial; <b>Spell Resistance</b> yes</p><div class='Sep1'>Description</div><div class='SPDesc'><p>You grab a creature with telekinesis and use it to batter nearby opponents or objects. You must target a specific creature when casting this spell and once you select that creature you cannot switch to another. Each round, as a standard action, you can attempt to hurl the target at any creature or object within 30 feet of it. You must make an attack roll whenever you use the target as a weapon. The attack bonus for this attack is equal to your caster level plus either your Intelligence or Charisma modifier (whichever is higher). If you successfully hit the new target with the creature both it and the creature take damage based on the creature's size.</p><p><b><table><tr><th>Creature Size</th><th>Damage Dealt</th></tr><tr><td>Fine</td><td>1d4</td></tr><tr><td>Diminutive</td><td>1d6</td></tr><tr><td>Tiny</td><td>1d8</td></tr><tr><td>Small</td><td>1d10</td></tr><tr><td>Medium</td><td>2d6</td></tr><tr><td>Large</td><td>2d8</td></tr><tr><td>Huge</td><td>2d10</td></tr><tr><td>Gargantuan</td><td>3d6</td></tr><tr><td>Colossal</td><td>3d8</td></tr></table> The target creature can make a Fortitude saving throw each time you attempt to use it as a weapon. If it makes its saving throw it can act normally, but if it fails its save it loses all actions for the round and ends its turn prone in a square adjacent to the target of your attack. However, if the creature chooses to resist your efforts to move it, taking no other actions for the round, it gets a +4 circumstance bonus on its saving throw. The spell ends immediately if the target creature dies or is destroyed.</p></div><div class='heading'><P>Mythic Enemy Hammer</p></div><div class='SPDesc'><p>The target becomes entangled whether or not it succeeds at its saving throw. When using the target as a weapon, add half your tier to your attack roll, and add your tier to the damage roll.</p><p><b>Augmented (3rd):</b> If you expend two uses of mythic power, when you use the target to hit a creature, you can attempt a free bull rush combat maneuver against that creature. Your CMB for this maneuver is equal to your attack bonus for mythic enemy hammer, except you add your tier instead of half your tier.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - Advanced Players Guide.</div>
+    <div class="Sec15CW_Body">Advanced Players Guide, copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn.    </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

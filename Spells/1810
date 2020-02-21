@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1809'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1811'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: People Of The River</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Magnetic Field</p></div><P class='SPDet'><b>School</b> abjuration; <B>Level</b> alchemist 6, cleric/oracle 7, magus 6, sorcerer/wizard 7, summoner 6, witch 7</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 1 standard action</p><P class='SPDet'><b>Components</b> V, S</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> 30 ft.</p><P class='SPDet'><b>Area</b> 30-ft.-radius emanation</p><P class='SPDet'><b>Duration</b> 1 round/2 levels (D)</p><P class='SPDet'><b>Saving Throw</b> Reflex negates (object; see text); <b>Spell Resistance</b> yes (object)</p><div class='Sep1'>Description</div><div class='SPDesc'><p>You create a spherical magnetic field that surrounds you to a range of 30 feet and follows you for the duration of the spell.</p><p>Unattended metal objects in range-including weapons, armor, and anything made primarily out of metal-are pulled violently toward you, stopping just short of your space and falling harmlessly to the ground. Objects secured to a nonmetallic fixture remain where they are unless a forceful tug would be enough to detach them. Loose objects weighing more than 500 pounds are not affected. If the magnetic field would cause a dangerous metal object such as a sword or anvil to intersect a square occupied by a creature, that creature must succeed at a Reflex save or take damage as if from an improvised weapon of the object's size (or smaller or larger, at the GM's discretion).</p><p>A creature in the area wearing metal armor, wielding a metal weapon, or holding a metal object must succeed at a Reflex save or be dragged 5 feet closer to you in a straight line, as if affected by the pull universal monster rule (<i>Bestiary</i> 303). A creature can drop a metal object it's holding as a free action to avoid the effect if it's not wearing metal armor; a creature being dragged by its shield can loosen it as a move action and drop it as a free action. Creatures made entirely or mostly of metal take a -2 penalty on their Reflex saves. Creatures that fail their saves by 5 or more are pulled an additional 5 feet closer for every increment of 5 by which they failed their saves.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - .</div>
+    <div class="Sec15CW_Body">, copyright , ;     </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

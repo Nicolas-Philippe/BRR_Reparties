@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1686'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1688'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: Mythic Origins</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Elemental Bombardment</p></div><P class='SPDet'><b>School</b> conjuration (summoning) [see text]; <B>Level</b> druid 7, sorcerer/wizard 7</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 1 round</p><P class='SPDet'><b>Components</b> V, S</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> long (400 ft. + 100 ft./level)</p><P class='SPDet'><b>Effect</b> one or more summoned elementals</p><P class='SPDet'><b>Duration</b> 1 round/2 levels (D)</p><P class='SPDet'><b>Saving Throw</b> none; <b>Spell Resistance</b> no</p><div class='Sep1'>Description</div><div class='SPDesc'><p>You summon elementals from their elemental planes and hurl them onto your enemies with great force. You must have line of effect to a point at least 60 feet above your intended targets and within the spell's range. You can summon one greater elemental, two Huge elementals, four Large elementals, or eight Medium elementals. You aim the elementals at targets within 60 feet of each other, no more than one elemental per target.</p><p>Each elemental can strike only a single target, regardless of its size. When an elemental strikes a target, it makes a single slam attack at its full attack bonus with a +4 circumstance bonus. The elemental deals damage according to the table below. The type and amount of damage dealt varies by the size and type of elemental (see the table). Some elementals inflict an additional special ability upon successfully hitting a target; these additional special abilities are detailed in the elemental's full stat block and are denoted with an asterisk (*). Whether or not it hits, the elemental takes bludgeoning damage according to its size. A summoned elemental acts on the same turn that it lands, starting prone in the nearest available space adjacent to its target.</p><p>You must select one type of elemental to summon when casting this spell (see the table).</p><p>When you use a summoning spell to summon a creature with an elemental subtype, it is a spell of that type.</p> <table border ='1'><tr><th>Elemental Size</th><th>Damage</th></tr><tr><td>Medium</td><td>6d6</td></tr><tr><td>Large</td><td>8d6</td></tr><tr><td>Huge or larger</td><td>12d6</td></tr></table> <table border ='1'><tr><th>Elemental Type</th><th>Damage Type</th></tr><tr><td>Air</td><td>Half slashing, half electricity</td></tr><tr><td>Earth</td><td>Bludgeoning and earth mastery*</td></tr><tr><td>Fire</td><td>Fire and burn*</td></tr><tr><td>IceB2</td><td>Half bludgeoning, half cold</td></tr><tr><td>Lightning B2</td><td>Electricity and metal mastery*</td></tr><tr><td>Magma B2</td><td>Half bludgeoning, half fire</td></tr><tr><td>Mud B2</td><td>Bludgeoning and entrap*</td></tr><tr><td>Water</td><td>Bludgeoning and drench*</td></tr></table> </p></div><div class='heading'><P>Mythic Elemental Bombardment</p></div><div class='SPDesc'><p>If you expend one use of mythic power, you cansummon a combination of differently sized elementals of upto two different types, as long as their total number does notexceed the original limit. For example, you could summon oneHuge air elemental and two Large fire elementals, or one Largewater elemental and six Medium earth elementals.</p><p><b>Augmented (9th):</b> If you expend three uses of mythic power,you summon twice as many elementals as normal, each withthe advanced simple template.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - Pathfinder roleplaying Game Mythic Origins.</div>
+    <div class="Sec15CW_Body">Pathfinder roleplaying Game Mythic Origins, copyright 20??, Paizo Publishing, LLC; Authors: Dennis Baker, Philip Minchin, and Russ Taylor    </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

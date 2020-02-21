@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=916'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=918'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: APG</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Wall of Suppression</p></div><P class='SPDet'><b>School</b> abjuration; <B>Level</b> sorcerer/wizard 9</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 1 standard action</p><P class='SPDet'><b>Components</b> V, S, M (powdered adamantine worth 1,000 gp)</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> medium (100 ft. + 10 ft./level)</p><P class='SPDet'><b>Effect</b> anti-magic wall occupying up to two 5 ft. cubes/level (S)</p><P class='SPDet'><b>Duration</b> 10 minutes/level; see text</p><P class='SPDet'><b>Saving Throw</b> none; <b>Spell Resistance</b> no</p><div class='Sep1'>Description</div><div class='SPDesc'><p>You create a <i>wall of</i> glittering motes that suppresses or even negates any magical effect passing through it. The wall appears to have no actual substance and does not physically obstruct or impede anything attempting to move through it. However, the wall exerts a powerful anti-magical effect.</p><p>Any magic item or magical spell or effect of your caster level or lower that passes through the wall is suppressed for 1 round per level. Spells or effects with durations expire normally, even while thus suppressed. A spell or with a duration greater than that of the suppression resumes functioning normally when the suppression ends.</p><p>The wall affects all magical effects, including spells, spelllike abilities, magical items, and any effects stemming from them that pass through the wall. The wall does not suppress a creature's ability to cast spells, use spell-like abilities, or any other sort of limited-use abilities even if the wall suppresses a particular application of those abilities. However, if a creature with magical abilities that are constant or otherwise always active passes through the wall, those abilities are suppressed for the normal duration.</p><p>The wall blocks line of effect, so no spell or effect can pass through the wall, but it does not block line of sight. Magic items or spell effects with a higher caster level than yours are unaffected by the <i>wall of</i> suppression. The wall does not affect artifacts, anything stemming from the direct action of a deity, or similarly powerful sorts of magic.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - Advanced Players Guide.</div>
+    <div class="Sec15CW_Body">Advanced Players Guide, copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn.    </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

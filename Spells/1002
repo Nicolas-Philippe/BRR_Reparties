@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1001'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1003'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: Ultimate Magic</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Create Demiplane, Greater</p></div><P class='SPDet'><b>School</b> conjuration (creation); <B>Level</b> cleric/oracle 9, sorcerer/wizard 9, witch 9</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 6 hours</p><P class='SPDet'><b>Components</b> V, S, F (a forked metal rod worth at least 500 gp)</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> 0 ft.</p><P class='SPDet'><b>Effect</b> extradimensional demiplane, up to 20 10-ft. cubes/level (S)</p><P class='SPDet'><b>Duration</b> 1 day/level or instantaneous (see text)</p><P class='SPDet'><b>Saving Throw</b> none; <b>Spell Resistance</b> no</p><div class='Sep1'>Description</div><div class='SPDesc'><p>This spell functions as <i><i>create</i> demiplane</i>, except the area is larger and you can add more features to the plane. You can use this spell to expand a demiplane you <i>create</i>d with lesser <i><i>create</i> demiplane</i> or <i><i>create</i> demiplane</i> (you do not need to <i>create</i> an entirely new plane using this spell), in which case it has aduration of 1 day/level. Alternatively, when cast within your demiplane, you may add to your demiplane (or remove from it) one of the following features (or any of the features described in <i><i>create</i> demiplane</i>) with each casting of the spell, in which case it has an instantaneous duration.</p><p>Energy: Your plane gains the (minor) negative- or positivedominant energy trait (see Elemental and Energy Traits, <i>GameMastery Guide</i> 186). A plane cannot have both the negative-dominant and positive-dominant energy traits.</p><p>Magic: Your plane gains the dead magic, enhanced magic, impeded magic, or wild magic planar trait (see Magic Traits, <i>GameMastery Guide</i> 187). If you selected dead magic, you are trapped within your plane unless it has a permanent planar portal (such as the portal feature, below). If you selected enhanced or impeded magic, choose one type of magic to be enhanced or impeded, such as effects with the fire descriptor or that manipulate fire or death spells and spells from the Death or Repose domains. A plane cannot be enhanced and impeded for the same kinds of spells.</p><p>Morphic: You may use <i>move earth</i> at will in your demiplane at one-tenth of the spell's normal casting time, and can reshape normal plants in the same manner (such as by twisting trees into a fence or humanlike shapes). You are even able to affect rock formations with this ability, though the casting time for this is only half normal.</p><p>Portal: Your demiplane gains a permanent <i>gate</i> to one location on another plane, which can only be used for planar travel. This location must be very familiar to you.</p><p>This <i>gate</i> is always open and usable from both sides, but you can secure it using normal means (such as by building a door around it).</p><p>Time: By default, time passes at the normal rate in your demiplane. By selecting this feature, you may make your plane have the erratic time, flowing time (half or double normal time), or timeless trait (see Time, <i>GameMastery Guide</i> 185).</p><p>You can make this spell permanent with the <i>permanency</i> spell, at a cost of 22,500 gp. If you have cast <i>create</i> greater demiplane multiple times to enlarge the demiplane, each casting's area requires its own <i>permanency</i> spell.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - Pathfinder roleplaying Game Ultimate Magic.</div>
+    <div class="Sec15CW_Body">Pathfinder roleplaying Game Ultimate Magic, copyright 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.    </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=365'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=367'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: PFRPG Core</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Nightmare</p></div><P class='SPDet'><b>School</b> illusion (phantasm) [mind-affecting, evil]; <B>Level</b> bard 5, sorcerer/wizard 5, alchemist 5</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 10 minutes</p><P class='SPDet'><b>Components</b> V, S</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> unlimited</p><P class='SPDet'><b>Targets</b> one living creature</p><P class='SPDet'><b>Duration</b> instantaneous</p><P class='SPDet'><b>Saving Throw</b> Will negates; see text; <b>Spell Resistance</b> yes</p><div class='Sep1'>Description</div><div class='SPDesc'><p>You send a hideous and unsettling phantasmal vision to a specific creature that you name or otherwise specifically designate.</p><p>The <i>nightmare</i> prevents restful sleep and causes 1d10 points of damage. The <i>nightmare</i> leaves the subject fatigued and unable to regain arcane spells for the next 24 hours.</p><p>The difficulty of the save depends on your knowledge the subject and the physical connection (if any) you have to that creature.</p> <table border ='1'><tr><th><table><tr><th>Knowledge</th><th>Will Save Modifier</th></tr><tr><td>None*</td><td>+10</td></tr><tr><td>Secondhand (you have heard of the subject)</td><td>+5</td></tr><tr><td>Firsthand (you have met the subject)</td><td>+0</td></tr><tr><td>Familiar (you know the subject well)</td><td>-5</td></tr><tr><td colspan=2>*You must have some sort of connection to a creature of which you have no knowledge.</td></tr></table></td></tr></table> <table border ='1'><tr><th><table><tr><th>Connection</th><th>will Save Modifier</th></tr><tr><td>Likeness or picture</td><td>-2</td></tr><tr><td>Possession or garment</td><td>-4</td></tr><tr><td>Body part, lock of hair, bit of nail, etc.</td><td>-10</td></tr></table></td></tr></table> <i>Dispel evil</i> cast on the subject while you are casting the spell dispels the <i>nightmare</i> and causes you to be stunned for 10 minutes per caster level of the <i>dispel evil</i>.</p><p>If the recipient is awake when the spell begins, you can choose to cease casting (ending the spell) or to enter a trance until the recipient goes to sleep, whereupon you become alert again and complete the casting. If you are disturbed during the trance, you must succeed on a concentration check as if you were in the midst of casting a spell or the spell ends.</p><p>If you choose to enter a trance, you are not aware of your surroundings or the activities around you while in the trance.</p><p>You are defenseless, both physically and mentally, while in the trance. (You always fail Reflex and Will saving throws, for example.) Creatures who don't sleep (such as outsiders) or dream are immune to this spell.</p></div><div class='Sep1'>Domains</div><div class='SPDesc'><P>Madness, Night</P></div><div class='heading'><P>Mythic Nightmare</p></div><div class='SPDesc'><p>The spell's damage increases to 4d6 points of damage, and the target is also shaken for 24 hours.</p><p><b>Augmented (6th):</b> You can deliver a mind-affecting spell through a mythic nightmare. The maximum level of the delivered spell is equal to half your tier, and you must expend one use of mythic power for each spell level of the imbued spell in addition to the one use needed to cast mythic nightmare. You choose whether the delivered spell affects the creature immediately or when it awakens. The delivered spell affects only the target, even if it normally affects multiple creatures or an area.</p></div>
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

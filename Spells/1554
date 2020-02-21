@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1553'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1555'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: RotRL-AE-Appendix</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Covetous Aura</p></div><P class='SPDet'><b>School</b> abjuration; <B>Level</b> bard 5, sorcerer/wizard 5</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 1 standard action</p><P class='SPDet'><b>Components</b> V, S</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> personal</p><P class='SPDet'><b>Area</b> 25-ft.-radius emanation centered on you</p><P class='SPDet'><b>Duration</b> 1 round/level or until discharged</p><P class='SPDet'><b>Saving Throw</b> none; <b>Spell Resistance</b> no</p><div class='Sep1'>Description</div><div class='SPDesc'><p>Anytime a harmless (so noted by a spell's saving throw description) spell of 3rd level or lower is cast within a <i>covetous</i> aura's area of effect, you may choose to immediately gain the benefit of that spell as if it had also targeted you. The intended target still gains the effect of the spell. You gain the benefits of this duplicated spell only if the caster is in range of the <i>covetous</i> aura. You are considered the caster of the additional spell effect. If the effect allows for multiple targets other than yourself, you cannot use the stolen spell effect to target other creatures-a <i>covetous</i> aura only aids you. Once you choose to gain the benefit of another spell, the <i>covetous</i> aura immediately ends. Rumors hold that this unusual spell was invented thousands of years ago by Runelord Belimarius, who was constantly jealous of other spellcasters' abilities.</p></div><div class='heading'><P>Mythic Covetous Aura</p></div><div class='SPDesc'><p>The duration of the covetous aura increases to 1 minute perlevel or until discharged. You may gain the benefits of spells of5th level or lower cast within the aura's area of effect. You cangain the effects of two separate spells, after which the mythiccovetous aura ends.</p><p><b>Augmented (6th):</b> If you expend two uses of mythicpower, the duration increases to 10 minutes per level or untildischarged. You may gain the benefits of spells of 7th level orlower cast within the aura's area of effect. When you gain thebenefit of a spell, the original spell is immediately targeted witha greater dispel magic spell at your caster level. If the dispelcheck succeeds, the spell ends for any of the original recipientsin the area of your covetous aura.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - Pathfinder Adventure Path: Rise of the Rune Lords Anniversary Edition.</div>
+    <div class="Sec15CW_Body">Pathfinder Adventure Path: Rise of the Rune Lords Anniversary Edition, copyright 2012, Paizo Publishing, LLC; Authors: Wolfgang Baur, Stephen S. Greer, James Jacobs, Nicolas Logue, Richard Pett, and Greg A. Vaughan.    </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

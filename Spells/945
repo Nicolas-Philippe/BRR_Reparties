@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=944'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=946'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: Inner Sea World Guide</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Vision of Lamashtu</p></div><P class='SPDet'><b>School</b> illusion (phantasm) [mind-affecting, evil]; <B>Level</b> cleric/oracle 7, inquisitor 6, witch 7</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 10 minutes (see text)</p><P class='SPDet'><b>Components</b> V, S</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> unlimited</p><P class='SPDet'><b>Targets</b> one living creature</p><P class='SPDet'><b>Duration</b> instantaneous</p><P class='SPDet'><b>Saving Throw</b> Will negates (see text); <b>Spell Resistance</b> yes</p><div class='Sep1'>Description</div><div class='SPDesc'><p>This spell functions exactly as the spell <i>nightmare</i>. In addition to the effects of that spell, you can cause a second spell to be delivered when the target wakes at the <i>nightmare</i>'s conclusion.</p><p>You must have this second spell prepared, and it must be cast immediately after <i>vision of Lamashtu</i> (effectively adding the two spells' casting times). This second spell rides along with the <i>nightmare</i>, affecting the target as soon as it wakes from its fitful sleep. Any spell can be sent along with the <i>nightmare</i>, so long as it is of 6th level or lower, affects one target (which is always the <i>nightmare</i>'s recipient), and does not deal hit point damage. The second spell's range is irrelevant for the purposes of <i>vision of Lamashtu</i>, and even touch attacks can be delivered in this manner (you must still make a successful touch attack in order to affect the target, though, with the act of touching occurring within the context of the victim's <i>nightmare</i>). The target is allowed to save against the second spell if a save is allowed. For example, a cleric of Lamashtu could send <i>bestow curse</i> along as part of a <i>vision of Lamashtu</i>, but not <i>blade barrier</i> (affects an area), <i>destruction</i> (too high level), or <i>inflict moderate wounds</i> (deals hit point damage).</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - Pathfinder Campaign Setting: The Inner Sea World Guide.</div>
+    <div class="Sec15CW_Body">Pathfinder Campaign Setting: The Inner Sea World Guide, copyright 2011, Paizo Publishing, LLC; Authors: Keith Baker, Wolfgang Baur, Clinton J. Boomer, Jason Bulmahn, Joshua J. Frost, Ed Greenwood, Stephen S. Greer, Jeff Grubb, James Jacobs, Michael Kortes, Tito Leati, Mike McArtor, Rob McCreary, Erik Mona, Jason Eric Nelson, Jeff Quick, Sean K Reynolds, F. Wesley Schneider, Leandra Christine Schneider, David Schwartz, Amber E. Scott, Stan!, Owen K.C. Stephens, Todd Stewart, James L. Sutter, Greg A. Vaughan, Jeremy Walker, and JD Wiker.    </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>
