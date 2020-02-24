@@ -72,8 +72,11 @@
       }).foreach(element => println(element.nameSpell))
 
 
-    val sqlContext = new org.apache.spark.sql.SQLContext(sc)
-
+    val sqlCoext = new org.apache.spark.sql.SQLContext(sc)
+    val sqlContext = SparkSession
+      .builder()
+      .appName("sessionBD")
+      .getOrCreate()
     val schema = StructType(Array(
       StructField("levelSorcere", StringType),
       StructField("nameSpell", StringType),
@@ -86,7 +89,11 @@
                                 element.spellResistant))
 
     val dataFrame = sqlContext.createDataFrame(rowRDD,schema)
-    dataFrame.registerTempTable("allSpell")
-    val results = sqlContext.sql("SELECT * FROM allSpell")
-    println(results);
+    dataFrame.createOrReplaceGlobalTempView("allSpell")
+    //dataFrame.collect().foreach(x => println(x))
+    dataFrame.show()
+    val results = sqlContext.sql("SELECT * FROM allSpell ")
+    results.show()
+    //val resultsfil = sqlContext.sql("SELECT nameSpell FROM allSpell WHERE  ")
+    //println(results);
   }
