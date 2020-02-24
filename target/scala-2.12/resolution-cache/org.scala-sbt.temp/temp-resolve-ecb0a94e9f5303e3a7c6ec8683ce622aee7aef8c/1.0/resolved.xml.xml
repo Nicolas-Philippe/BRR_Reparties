@@ -4,7 +4,7 @@
 		module="temp-resolve-ecb0a94e9f5303e3a7c6ec8683ce622aee7aef8c"
 		revision="1.0"
 		status="release"
-		publication="20200204084111"
+		publication="20200204101023"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
