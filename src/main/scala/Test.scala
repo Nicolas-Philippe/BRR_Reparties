@@ -19,14 +19,19 @@
     implicit val codec = Codec("UTF-8")
     codec.onMalformedInput(CodingErrorAction.REPLACE)
     codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
-    var size = 1975//1975
+    
+    // La variable "size" détermine le nombre de spells , correspond à l'id du dernier spell pris en compte
+    // sa vleur maximal est de 1975, le nombre total de spell sur le site de référence
+    var size = 1975 //1975
+    // La variable spellArray correspond à la liste de spells étudiés
     var spellArray = new Array[Spell](size)
 
     /*
-    // ce code n'a été exécuté qu'une seule fois pour télécharger tout les spells
-    //Nous avons fait ça car le site était souvent inacessible et pour tester le programme ce
-    //n'était pas pratique
-    //Ces fichier sont déjà présent dans le dossier donc il n'y a pas besoin de la refaire tourner
+    // le code suivant n'a été exécuté qu'une seule fois pour télécharger tout les spells
+    // Nous avons fait ça car le site était souvent inacessible et ce n'était donc pas pratique 
+    // pour tester le programme.
+    // Ces fichier sont déjà présent dans le dossier donc il n'y a pas besoin de refaire tourner
+    // Cette boucle
         for(i <- 1 to size) { //1975
           var stringUrl = "http://www.dxcontent.com/SDB_SpellBlock.asp?SDBID=" + i
           val html = Source.fromURL(stringUrl)
@@ -37,12 +42,19 @@
     */
 
 
+    // Cette boucle sert à remplir la liste de spell "spellArray" avec les variables correspondantes
     for(i <- 1 to size) { //1975
 
+      // Le Code source des pages de description de tous les spells sont enregistrés dans des fichiers joints
+      // ils sont récupérés sous forme de string et les informations qui nous interressent sont ensuite
+      // enregistrés dans des variables ("levelSorcerer", "nameSpell", "components" et "isSpellResistance") 
+      // avant d'être utilisés pour créer un nouveau spell qui sera intégré à la variable "spellArray"
+      
       val html = Source.fromFile("Spells/" + i).getLines()
       val htmlString = html.mkString
 
-      if(htmlString.contains("Level")) {
+      if(htmlString.contains("Level")) {   // cette condition est nécessaire puisque nous avons observés
+        // que certaines pages du site étaient vierge.
         val indexLevel = htmlString.indexOf("<B>Level</b>") + "<B>Level</b>".length
         val levelSorcerer = htmlString.substring(indexLevel, htmlString.indexOf("</p", indexLevel))
 
@@ -59,13 +71,16 @@
           val spellResistance = htmlString.substring(indexSpellResistance, htmlString.indexOf("</p>", indexSpellResistance))
           isSpellResistance = spellResistance.contains("yes")
         }
+        // on intègre le spell à "spellArray"
         spellArray(i - 1) = new Spell(levelSorcerer.toString, nameSpell, components, isSpellResistance)
-      }else {
+      }else {  // si la page observée est vierge, les champs sont remplacés par des valeurs par défaults
         spellArray(i - 1) = new Spell("Error", "Error", "Error", false)
       }
       println(i)
     }
 
+    // La classe Spell est utilisée pour conserver les données nous intérressant pour chaque spell :
+    // le niveau du spell, son nom, ses composants et la résistance.
     class Spell(var levelSorcerer: String = "", var nameSpell: String = "", var components: String  = "", var spellResistant: Boolean = false) extends Serializable {}
 
 
@@ -78,6 +93,7 @@
     val resultatRDD = sc.makeRDD(spellArray) //met les data dans la rdd
 
 
+    //  3) On filtre les spells avec les critères qui nous interressent
     println(("\nAvec RDD\n"))
      resultatRDD.filter(element => element.components.equals(" V"))
       .filter(element => element.levelSorcerer.contains("sorcerer"))
@@ -88,6 +104,7 @@
       }).foreach(element => println(element.nameSpell))
 
 
+    // 4) on effetue la même opération avec une base de données relationnelle et avec le langage de requêtes SQL
     val sqlContext = SparkSession
       .builder()
       .appName("sessionBD")
