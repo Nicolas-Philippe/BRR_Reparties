@@ -72,6 +72,7 @@
     val resultatRDD = sc.makeRDD(spellArray) //met les data dans la rdd
 
 
+    println(("\nAvec RDD\n"))
     resultatRDD.filter(element => element.components.equals(" V"))
       .filter(element => element.levelSorcerer.contains("sorcerer"))
       .filter(element => {
@@ -81,8 +82,10 @@
       }).foreach(element => println(element.nameSpell))
 
 
-    val sqlContext = new org.apache.spark.sql.SQLContext(sc)
-
+    val sqlContext = SparkSession
+      .builder()
+      .appName("sessionBD")
+      .getOrCreate()
     val schema = StructType(Array(
       StructField("levelSorcere", StringType),
       StructField("nameSpell", StringType),
@@ -91,11 +94,20 @@
     ))
 
     val rowRDD = resultatRDD.map(element => Row(element.levelSorcerer,
-                                element.nameSpell, element.components,
-                                element.spellResistant))
+      element.nameSpell, element.components,
+      element.spellResistant))
 
     val dataFrame = sqlContext.createDataFrame(rowRDD,schema)
-    dataFrame.registerTempTable("allSpell")
-    val results = sqlContext.sql("SELECT * FROM allSpell")
-    println(results);
+
+    dataFrame.createTempView("allSpell")
+
+    //println("DataFrame")
+    // dataFrame.show()
+
+    val requete = sqlContext.sql("SELECT nameSpell FROM allSpell WHERE components = ' V' AND " +
+      "( levelSorcere  LIKE '%sorcerer/wizard 1%' OR levelSorcere  LIKE '%sorcerer/wizard 2%' OR levelSorcere  LIKE '%sorcerer/wizard 3%' OR levelSorcere  LIKE '%sorcerer/wizard 4%') ")
+    //val nbResult = requete.count()
+
+    println(("\nAvec SQL : \n"))
+    requete.collect.foreach(println)
   }
