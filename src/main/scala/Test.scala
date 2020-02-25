@@ -22,10 +22,19 @@
     var size = 1975//1975
     var spellArray = new Array[Spell](size)
 
+    /*
+    // ce code n'a été exécuté qu'une seule fois pour télécharger tout les spells
+        for(i <- 1 to size) { //1975
+          var stringUrl = "http://www.dxcontent.com/SDB_SpellBlock.asp?SDBID=" + i
+          val html = Source.fromURL(stringUrl)
+          val htmlString = html.mkString
+          reflect.io.File("Spells/" + i).writeAll(htmlString)
+        }
+        */
+
     for(i <- 1 to size) { //1975
 
-      var stringUrl = "http://www.dxcontent.com/SDB_SpellBlock.asp?SDBID=" + i
-      val html = Source.fromURL(stringUrl)
+      val html = Source.fromFile("Spells/" + i).getLines()
       val htmlString = html.mkString
 
       if(htmlString.contains("Level")) {

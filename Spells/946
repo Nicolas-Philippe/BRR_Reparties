@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=945'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=947'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: Inner Sea World Guide</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Waters Of Lamashtu</p></div><P class='SPDet'><b>School</b> conjuration (creation); <B>Level</b> alchemist 2, cleric/oracle 3, druid 3, witch 3</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 1 standard action</p><P class='SPDet'><b>Components</b> V, S, M (250 gp of powdered amber)</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> close (25 ft. + 5 ft./2 levels)</p><P class='SPDet'><b>Effect</b> up to 1 draft of the waters of Lamashtu per 2 levels</p><P class='SPDet'><b>Duration</b> instantaneous</p><P class='SPDet'><b>Saving Throw</b> Fortitude partial; <b>Spell Resistance</b> no</p><div class='Sep1'>Description</div><div class='SPDesc'><p>This spell generates what appears to be clear, pure water, but is in fact a foul secretion known as the <i>waters of Lamashtu</i>.</p><p>The liquid functions in all the same ways as unholy water (see <i>curse</i> water). In addition, any creature that is anointed with or drinks this fluid must make a Fortitude save (drinking the <i>waters of Lamashtu</i> is particularly effective-creatures who drink the stuff take a -4 penalty on their save to resist its effects). Success causes the creature to become violently ill, vomit the fluid, and become sickened for 1d4 rounds. Failure indicates the water takes root and drives the victim mad (dealing 1d6 points of Intelligence damage) and twists and deforms the body (dealing 1d6 points of Dexterity damage).</p><p>The subject's Dexterity and Intelligence cannot drop below 1 as a result of this effect. Casting this spell creates approximately 2 ounces of the <i>waters of Lamashtu</i>, enough for one draft or use (if bottled) as a thrown weapon. The fluid can be created and stored indefinitely, though it cannot be created inside a creature. Extensive exposure to the <i>waters of Lamashtu</i> (such as drinking nothing else for months at a time) can have other long-term effects on the target, including the development of monstrous deformities or even total transformation into a beast, depending on the GM's whim (these mutations are rarely, if ever, beneficial to the victim).</p></div><div class='heading'><P>Mythic Waters Of Lamashtu</p></div><div class='SPDesc'><p>When used as unholy water, mythic waters of Lamashtu dealtwice as much damage and prevent the creature from regaininghit points from fast healing or regeneration for 1d4 rounds(meaning the creature can be killed normally). The abilitydamage from the waters increases to 2d4, and a creatureimbibing or anointed by the waters is nauseated for 1d4 roundsif it fails its saving throw. The long-term effects of drinkingmythic waters of Lamashtu happen more quickly, requiring onlyregular exposure over weeks instead of massive quantities formonths, and warp the consuming creature more extensively (atthe GM's discretion). Monstrosities created by mythic waters ofLamashtu can breed with members of their original species andpass on such mutations to their offspring.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - Pathfinder Campaign Setting: The Inner Sea World Guide.</div>
+    <div class="Sec15CW_Body">Pathfinder Campaign Setting: The Inner Sea World Guide, copyright 2011, Paizo Publishing, LLC; Authors: Keith Baker, Wolfgang Baur, Clinton J. Boomer, Jason Bulmahn, Joshua J. Frost, Ed Greenwood, Stephen S. Greer, Jeff Grubb, James Jacobs, Michael Kortes, Tito Leati, Mike McArtor, Rob McCreary, Erik Mona, Jason Eric Nelson, Jeff Quick, Sean K Reynolds, F. Wesley Schneider, Leandra Christine Schneider, David Schwartz, Amber E. Scott, Stan!, Owen K.C. Stephens, Todd Stewart, James L. Sutter, Greg A. Vaughan, Jeremy Walker, and JD Wiker.    </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

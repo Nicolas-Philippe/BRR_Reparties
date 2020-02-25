@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=935'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=937'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: Inner Sea World Guide</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Harrowing</p></div><P class='SPDet'><b>School</b> divination; <B>Level</b> bard 3, sorcerer/wizard 3, witch 3</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 10 minutes</p><P class='SPDet'><b>Components</b> V, S, F (a Harrow deck)</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> touch</p><P class='SPDet'><b>Targets</b> one creature</p><P class='SPDet'><b>Duration</b> 1 day/level or until fulfilled</p><div class='Sep1'>Description</div><div class='SPDesc'><p>You use a Harrow deck to tell a fortune for yourself or someone else. If you cast <i>harrowing</i> on another creature, you must remain adjacent to the target for the duration of the casting time. A <i>harrowing</i> must describe one set of events or course of action (for example, hunting down the pirate king, or traveling to Viperwall to search for a magic sword) that the target of the spell intends to undertake at some point during the spell's duration.</p><p>If you have access to a Harrow deck, draw nine cards when this spell is cast. If you do not have a Harrow deck, you can simulate the draws by rolling a d6 and a d10 for each of the nine cards, as detailed on page 293 of this book. Record the ability score and alignment associated with each card. Each of these cards grants a luck bonus or a penalty on a specific type of d20 check; the magnitude of the penalty or bonus depends upon how closely that particular card's alignment matches the target creature's alignment. If the card and target's alignments are identical, that card provides a +2 luck bonus on the associated suit's check. If the card and target's alignments are of the opposite alignment (see below), the card inflicts a -1 penalty on that associated check. If the card has any other alignment, it provides a +1 luck bonus on the associated suit's check.</p><p>While penalties persist on all associated checks for as long as the <i>harrowing</i> persists, the bonuses are one-use bonuses that the harrowed character can spend at any time to modify that card's associated check. You can spend a bonus to modify an appropriate roll after the die is rolled, but cannot spend the bonus once you know the result of the roll. Since all of the bonuses granted by a <i>harrowing</i> are luck bonuses, they do not stack with each other. Penalties, on the other hand, do stack.</p><p>Once you spend all of the bonuses granted by a <i>harrowing</i>, or once the spell's duration ends, the spell ends and the penalties are removed.</p><p>A single creature can only be under the effects of one <i>harrowing</i> at a time. If it is subjected to a second <i>harrowing</i> while a previous <i>harrowing</i> is still in effect, the new <i>harrowing</i> automatically fails.</p> <table border ='1'><tr><th>Associated Suit Checks</th></tr><tr><th>Suit</th><th>Associated Check</th></tr><tr><td>Hammer (Str)</td><td>Attack rolls (ranged and melee)</td></tr><tr><td>Key (Dex)</td><td>Reflex saving throws</td></tr><tr><td>Shield (Con)</td><td>Fortitude saving throws</td></tr><tr><td>Book (Int)</td><td>Skill checks</td></tr><tr><td>Star (Wis)</td><td>Will saving throws</td></tr><tr><td>Crown (Cha)</td><td>Any d20 roll</td></tr></table> <table border ='1'><tr><th colspan='2'>Opposition Alignments</th></tr><tr><th>Alignment</th><th>Opposition</th></tr><tr><td>LG</td><td>CE</td></tr><tr><td>NG</td><td>NE</td></tr><tr><td>CG</td><td>LE</td></tr><tr><td>LN</td><td>CN</td></tr><tr><td>N</td><td>LG, LE, CG, or CE (pick one when spell is cast)</td></tr><tr><td>CN</td><td>LN</td></tr><tr><td>LE</td><td>CG</td></tr><tr><td>NE</td><td>NG</td></tr><tr><td>CE</td><td>LG</td></tr></table></div><div class='heading'><P>Mythic Harrowing</p></div><div class='SPDesc'><p>The bonuses and penalties associated with your reading aredoubled, resulting in a +4 luck bonus if the card's and target'salignment are identical, a -2 penalty if the alignments areopposite, and a +2 luck bonus for any other alignment. You canuse each bonus twice-once at this doubled value, the secondtime at the normal value (+2 or +1). You must use a given card'sdoubled bonus before you can use its lower bonus. Once youhave used both bonuses, or when the spell's duration ends, thespell ends and any penalties are removed.A mythic harrowing cast on the target of a non-mythicharrowing supersedes and negates the harrowing effect. Ifa creature is subjected to a second mythic harrowing while aprevious mythic harrowing is still in effect, the new mythicharrowing automatically fails.</p><p><b>Augmented (6th):</b> If you expend two uses of mythic powerduring the reading, you may discard one card of your choiceand draw one new card in its place, replacing the effects ofthe chosen card with the effects of the newly drawn card. Youmust keep this new card. You can use each bonus twice, bothat the doubled values. Once you have used both bonuses,or when the spell's duration ends, the spell ends and anypenalties are removed.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - Pathfinder Campaign Setting: The Inner Sea World Guide.</div>
+    <div class="Sec15CW_Body">Pathfinder Campaign Setting: The Inner Sea World Guide, copyright 2011, Paizo Publishing, LLC; Authors: Keith Baker, Wolfgang Baur, Clinton J. Boomer, Jason Bulmahn, Joshua J. Frost, Ed Greenwood, Stephen S. Greer, Jeff Grubb, James Jacobs, Michael Kortes, Tito Leati, Mike McArtor, Rob McCreary, Erik Mona, Jason Eric Nelson, Jeff Quick, Sean K Reynolds, F. Wesley Schneider, Leandra Christine Schneider, David Schwartz, Amber E. Scott, Stan!, Owen K.C. Stephens, Todd Stewart, James L. Sutter, Greg A. Vaughan, Jeremy Walker, and JD Wiker.    </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

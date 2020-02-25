@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=940'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=942'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: Inner Sea World Guide</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Teleport Trap</p></div><P class='SPDet'><b>School</b> abjuration; <B>Level</b> sorcerer/wizard 7</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 10 minutes</p><P class='SPDet'><b>Components</b> V, S, M (powdered lodestone and silver worth 100 gp per 40-ft. cube)</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> medium (100 ft. + 10 ft./level)</p><P class='SPDet'><b>Area</b> one 40-ft. cube/level (S)</p><P class='SPDet'><b>Duration</b> 1 day/level</p><P class='SPDet'><b>Saving Throw</b> Will negates; <b>Spell Resistance</b> yes</p><div class='Sep1'>Description</div><div class='SPDesc'><p><i>Teleport trap</i> wards an area, redirecting all <i>teleport</i>ation into or out of the area to a specific point within the area determined by you at the time of casting. The destination must be an open space on a solid surface. The spell's area overlaps walls and other solid and liquid objects (preventing intruders from bypassing the ward by <i>teleport</i>ing into a wall or through similar means). A <i>teleport</i>ing creature that is affected by a <i><i>teleport</i> trap</i> can resist the effect with a Will save-if the save is successful, the creature simply doesn't <i>teleport</i> at all (but the use of the <i>teleport</i> effect is still consumed)-either to the intended location or the <i><i>teleport</i> trap</i>'s actual destination. A DC 27 Knowledge (arcana) allows such a creature to recognize the <i><i>teleport</i> trap</i>'s presence, but does not reveal the trap's linked destination.</p><p>At your discretion, the <i><i>teleport</i> trap</i> can exclude a category of creatures, such as an alignment, a type of creature, or creatures that carry a specific item or know a password (though this only works if the creature is <i>teleport</i>ing out of the area, not into it). You select this option and the conditions at the time you cast the spell. Overly complicated conditions may cause the spell to fail entirely. Multiple castings of <i><i>teleport</i> trap</i> can be linked to cover a larger area, allowing <i>teleport</i>ed creatures to be directed to a single point within the combined area of the spells.</p><p><i>Teleport trap</i> can be made permanent at the cost of 7,000 gp. A single <i>permanency</i> spell can be used on all <i><i>teleport</i> trap</i>s that share a linked destination, but the gold piece cost must be paid for each individual spell.</p><p>The Pathfinders of the Grand Lodge make use of permanent <i><i>teleport</i> trap</i>s in several key locations, trapping would-be intruders in a small wing of jail cells. At least one crypt of the Whispering Tyrant makes use of the spell as well, trapping grave robbers in coffin-sized stone cysts, there to die a slow and agonizing death from thirst and starvation.</p></div><div class='Sep1'>Domains</div><div class='SPDesc'><P>Trap</P></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - Pathfinder Campaign Setting: The Inner Sea World Guide.</div>
+    <div class="Sec15CW_Body">Pathfinder Campaign Setting: The Inner Sea World Guide, copyright 2011, Paizo Publishing, LLC; Authors: Keith Baker, Wolfgang Baur, Clinton J. Boomer, Jason Bulmahn, Joshua J. Frost, Ed Greenwood, Stephen S. Greer, Jeff Grubb, James Jacobs, Michael Kortes, Tito Leati, Mike McArtor, Rob McCreary, Erik Mona, Jason Eric Nelson, Jeff Quick, Sean K Reynolds, F. Wesley Schneider, Leandra Christine Schneider, David Schwartz, Amber E. Scott, Stan!, Owen K.C. Stephens, Todd Stewart, James L. Sutter, Greg A. Vaughan, Jeremy Walker, and JD Wiker.    </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

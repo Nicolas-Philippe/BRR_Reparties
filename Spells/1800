@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1799'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1801'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: The HarrowHandbook</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Harrowing, Greater</p></div><P class='SPDet'><b>School</b> divination; <B>Level</b> bard 5, sorcerer/wizard 6, witch 6</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 10 minutes</p><P class='SPDet'><b>Components</b> V, S, F (a harrow deck)</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> touch</p><P class='SPDet'><b>Targets</b> one creature, plus one additional creature for every 3 caster levels</p><P class='SPDet'><b>Duration</b> 1 day/level or until fulfilled</p><div class='Sep1'>Description</div><div class='SPDesc'><p>This spell functions as <i>harrowing</i>, except it can affect an entire group of creatures and allows its subjects some measure of control over their destiny. Subjects of a greater <i>harrowing</i> spell record and spend their accumulated bonuses and penalties individually, according to their own alignment.</p><p>Each participant in a greater <i>harrowing</i> can gain a special ability to seize control of fate if a card that matches that participant's alignment is drawn. Like the bonuses and penalties granted by the spell, the special ability can be used once before the end of the spell's duration. The exact ability gained depends on the card's suit; if multiple cards that match a participant's alignment are drawn, the participant can select one suit of her choice during the spell's casting.</p><p><i>Hammers</i>: As a standard action, you can grant yourself a +4 enhancement bonus to Strength for 1 minute. While this bonus persists, you can reroll any bull rush, grapple, or sunder combat maneuver checks. You must use the result of this second roll, even if it is worse.</p><p><i>Keys</i>: As a standard action, you can grant yourself a +4 enhancement bonus to Dexterity for 1 minute. While this bonus persists, you gain evasion, as the rogue class feature. If you already possess evasion, you instead gain improved evasion, as the advanced rogue talent.</p><p><i>Shields</i>: As a standard action, you can grant yourself a +4 enhancement bonus to Constitution for 1 minute. While this bonus persists, you gain fast healing 1 and don't die until you reach a number of negative hit points equal to double your Constitution.</p><p><i>Books</i>: As a standard action, you can grant yourself a +4 enhancement bonus to Intelligence for 1 minute. While this bonus persists, you gain a +3 enhancement bonus on checks with all skills you have no ranks in, and you can use those skills even if they can't normally be used untrained.</p><p><i>Stars</i>: As a standard action, you can grant yourself a +4 enhancement bonus to Wisdom for 1 minute. While this bonus persists, you gain immunity to one of the following (your choice): charm and compulsion effects, curse effects, or fear effects.</p><p><i>Crowns</i>: As a standard action, you can grant yourself a +4 enhancement bonus to Charisma for 1 minute. While this bonus persists, whenever you succeed at a Diplomacy or Intimidate check to improve a nonhostile creature's attitude toward you, that creature's attitude toward you becomes helpful for the remaining duration of the Charisma bonus, regardless of the number of steps by which you would normally improve its attitude. The creature reverts to its original attitude after the duration expires.</p><p>A single creature can be under the effects of only one <i>harrowing</i> or greater <i>harrowing</i> at a time. If the subject is targeted with a second <i>harrowing</i> or greater <i>harrowing</i> spell while a previous <i>harrowing</i> or greater <i>harrowing</i> is s till a ffecting him, the new spell automatically fails for that subject.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - .</div>
+    <div class="Sec15CW_Body">, copyright , ;     </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=618'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=620'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: Book of the Dammed V1</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Sacrifice</p></div><P class='SPDet'><b>School</b> enchantment (charm) [mind-affecting]; <B>Level</b> cleric/oracle 4, sorcerer/wizard 4</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 1 minute</p><P class='SPDet'><b>Components</b> V, S, M (see text)</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> close (25 ft. + 5 ft./2 levels)</p><P class='SPDet'><b>Targets</b> one summoned outsider or elemental (see text)</p><P class='SPDet'><b>Duration</b> instantaneous, 1 hour, or 1 day (see text)</p><P class='SPDet'><b>Saving Throw</b> none; <b>Spell Resistance</b> no</p><div class='Sep1'>Description</div><div class='SPDesc'><p>You make a sacrifice to aid in conjuring and commanding a creature called with <i>planar ally</i>, <i>planar binding</i>, or a similar spell. A sacrifice can be used in a variety of ways: <i>Bargain:</i> Making a sacrifice directly to the conjured being grants you a bonus on opposed Charisma checks made to compel the creature into service for the next hour.</p><p><i>Enticement:</i> Making a sacrifice the round before conjuring increases the DC of the Will save an outsider must make to resist being summoned.</p><p><i>Payment:</i> Making a sacrifice directly to the conjured being allows you to pay for one service from the creature in commodities other than gold.</p><p><i>Reinforcement:</i> Making a sacrifice the round before <i>magic circle</i> and preparing a summoning diagram increases the power of its warding magic, increasing the DC of all Charisma checks the creature might make to escape. This lasts 1 day.</p><p>Multiple sacrifices can be made to affect a single conjuring, but the bonuses provided by this spell do not stack. Therefore, while you can make sacrifices to aid in summoning and bargaining with a creature, you cannot make multiple sacrifices (even of varying types) to enhance the same effect of a particular conjuration.</p><p>A sacrifice may consist of any kind of commodity the target creature favors, including treasures, living creatures, or more ephemeral offerings. While this spell is not fundamentally evil, good-aligned creatures prove more selective in what offerings they accept, typically scoffing at blood sacrifices.</p><p>Many sacrifices are fundamentally evil acts, such as murdering a pious innocent to summon a fiend. Any creature might reject certain types of sacrifices, thus denying you the benefits of this spell, as the offering must appeal to the target-few outsiders would care for 2,000 gp worth of parchment, while 2,000 gp of diamonds would be widely coveted. The GM determines what sacrifices creatures find appealing.</p><p>The Sacrifice Effects table on the previous page lists a number of likely offerings, along with the bonus such gifts effect and the offering's equivalent value in gold pieces for the purposes of <i>planar ally</i>. Several of these sacrifices involve the loss of ability scores, levels, lives, or even changes in alignment.</p><p>Any change wrought by such sacrifices (loss of ability score or level, or change in alignment) cannot be recovered, cured, or undone by any spell or effect short of <i>miracle</i> or <i>wish.</i> The same is true of creatures killed as a sacrifice; such creatures cannot be resurrected by any magic less powerful than these spells.</p><p>Any object sacrificed with this spell is effectively destroyed or removed to an extraplanar holding of the summoned creature's choice. The bonuses and values noted on the sacrifices table are guidelines for offerings; certain types of treasures or lives might prove especially valuable to specific creatures, with extraordinary sacrifices (like a potent artifact or the life of a high-level paladin) garnering increased bonuses.</p><p>You cannot make greater sacrifices than those noted on the table to gain increased bonuses or gold values. For example, you could not gain two permanent negative levels to gain a +16 bonus nor gain increased benefit from slaying 20 HD worth of creatures to pay for a 10 HD creature's service.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - Pathfinder Chronicles: Book of the Dammed V1.</div>
+    <div class="Sec15CW_Body">Pathfinder Chronicles: Book of the Dammed V1, copyright 20??, Paizo Publishing, LLC; Authors: F. Wesley Schneider    </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

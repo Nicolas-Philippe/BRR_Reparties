@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1444'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=1446'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: Pirates Of The Inner Sea</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Salvage</p></div><P class='SPDet'><b>School</b> transmutation; <B>Level</b> cleric/oracle 9, sorcerer/wizard 9</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 1 standard action</p><P class='SPDet'><b>Components</b> V, S, M</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> long (400 ft. + 40 ft./level)</p><P class='SPDet'><b>Targets</b> one shipwreck</p><P class='SPDet'><b>Duration</b> see text</p><P class='SPDet'><b>Saving Throw</b> Fortitude negates (object); <b>Spell Resistance</b> yes (object)</p><div class='Sep1'>Description</div><div class='SPDesc'><p>An invisible force pulls together the remains of a shipwreck.</p><p>Bits of hull, tattered sails, broken masts, and smashed figureheads knit themselves back together. Rotten wood turns solid once more, and sails re-weave themselves as the rigging snakes across the masts.</p><p>It takes a variable amount of time for the ship to rebuild itself, depending on its size.</p><p> <table><tr><th>Size</th><th>Duration</th></tr><tr><td>Raft</td><td>1 minute</td></tr><tr><td>Rowboat</td><td>1 minute</td></tr><tr><td>Keelboat</td><td>10 minutes</td></tr><tr><td>Longship</td><td>1 hour</td></tr><tr><td>Sailing ship</td><td>2 hours</td></tr><tr><td>Warship</td><td>3 hours</td></tr><tr><td>Galleon</td><td>4 hours</td></tr></table> At the end of the duration, an air bubble forms around the repaired ship. If submerged, the ship shoots to the surface, erupting with a great splash before settling on the water.</p><p>Though the spell requires time to repair the ship, its effects are instantaneous. A <i><i>salvage</i>d</i> ship cannot be dispelled to return it to a shipwreck. However, before the spell's duration ends and while the ship is still being repaired, <i>salvage</i> can be dispelled to interrupt the repair process. The ship remains in the condition it was in when the spell was interrupted until a new <i>salvage</i> spell is cast (but continues to age normally and suffers the effects of its environments). A new <i>salvage</i> spell's duration is modified by any repairs already begun.</p></div>    
+    <div class="Sec15CW_Head">Section 15: Copyright Notice - .</div>
+    <div class="Sec15CW_Body">, copyright , ;     </div>
+
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>

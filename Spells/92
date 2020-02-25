@@ -1,0 +1,126 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <LINK REL=StyleSheet HREF="dxcontent_style.css" TYPE="text/css" MEDIA=screen>
+
+<title>Pathfinder OGL Spell Database Filter Tools</title>
+<style type="text/css">
+<!--
+@media print { 
+.noPrint { 
+    display:none; 
+} 
+} 
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.heading p{
+	background:#CBF1FE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.SPDet{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	margin: 0px;
+}
+
+.SPDesc p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.Sep1{
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top:6px;
+	margin-bottom:6px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Sec15CW_Head{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#BAD2E0;
+	border: 1px solid; gray;
+	padding:5px;
+	color:gray;
+	font-size:10px;
+}
+.Sec15CW_Body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#DFE8EA;
+	border-right: 1px solid; gray;
+	border-bottom: 1px solid; gray;
+	border-left: 1px solid; gray;
+	padding: 5px;
+	color:gray;
+	font-size:10px;
+}
+
+-->
+</style>
+<script src="js/DXC_GoogleAnalytics.js"></script>
+
+</head>
+<body>
+	<div id="header" style="width:100%; height:42px; background:#000;">
+    	<div class="TitleBar">
+        	<img src="images/Logo_dxContent.gif" width="174" height="42" alt="dx Content" onClick="document.location='index.asp';">
+            <img src="images/Logo_SpellDB.jpg" height="42" alt="">
+    	</div>
+        <div class="noPrint" style="float: left; color:white; font-family: Arial, Helvetica, sans-serif; font-style:italic; margin-top:15px; margin-left:15px;">Find the exact <span id="RandomSub" style="color:#F90">spell</span> for your Pathfinder&trade; game!</div>
+        <div style="clear:both; height:0px;"></div>
+    </div>
+
+<!--<input type="button" value="prev" onClick="document.location='mdb_MonsterBlock.asp?mdbid=91'">
+<input type="button" value="next" onClick="document.location='mdb_MonsterBlock.asp?mdbid=93'">-->
+
+
+
+<div style="float:left; width:700px; margin-left:20px;">
+<div style="text-align:center; background:#E0E0E0; font-family:Arial, Helvetica, sans-serif; color:#999">
+	<div style="float:left">Source: PFRPG Core</div>
+    <div style="float:right;" class="noPrint"><input type="button" value="print" onclick="window.print()" /></div>
+    <div style="clear:both;"></div>
+</div>
+<!-- START Spell -->
+<div class="SpellDiv" style="float:left; width:500px;">
+<div class='heading'><P>Contact Other Plane</p></div><P class='SPDet'><b>School</b> divination; <B>Level</b> sorcerer/wizard 5, witch 5, summoner 4, alchemist 5</p><div class='Sep1'>Casting</div><P class='SPDet'><b>Casting Time</b> 10 minutes</p><P class='SPDet'><b>Components</b> V</p><div class='Sep1'>Effect</div><P class='SPDet'><b>Range</b> personal</p><P class='SPDet'><b>Targets</b> you</p><P class='SPDet'><b>Duration</b> concentration</p><div class='Sep1'>Description</div><div class='SPDesc'><p>You send your mind to another plane of existence (an Elemental Plane or some plane farther removed) in order to receive advice and information from powers there. See the accompanying table for possible consequences and results of the attempt. The powers reply in a language you understand, but they resent such contact and give only brief answers to your questions. All questions are answered with yes, no, maybe, never, irrelevant, or some other one-word answer.</p><p>You must concentrate on maintaining the spell (a standard action) in order to ask questions at the rate of one per round. A question is answered by the power during the same round. You may ask one question for every two caster levels.</p><p>Contact with minds far removed from your home plane increases the probability that you will incur a decrease in Intelligence and Charisma due to your brain being overwhelmed, but also increases the chance of the power knowing the answer and answering correctly. Once the Outer Planes are reached, the power of the deity contacted determines the effects. (Random results obtained from the table are subject to the personalities of individual deities.) On rare occasions, this divination may be blocked by an act of certain deities or forces.</p><p><i>Avoid Int/Cha Decrease</i>: You must succeed on an Intelligence check against this DC to avoid a decrease in Intelligence and Charisma. If the check fails, your Intelligence and Charisma scores each fall to 8 for the stated duration, and you become unable to cast arcane spells. If you lose Intelligence and Charisma, the effect strikes as soon as the first question is asked, and no answer is received. If a successful contact is made, roll d% to determine the type of answer you gain.</p><p><i>True Answer</i>: You get a true, one-word answer. Questions that cannot be answered in this way are answered randomly.</p><p><i>Don't Know</i>: The entity tells you that it doesn't know.</p><p><i>Lie</i>: The entity intentionally lies to you.</p><p><i>Random Answer</i>: The entity tries to lie but doesn't know the answer, so it makes one up.</p><p> <table> <tr> <td>Contact Other Plane</td> </tr> <tr> <th>Plane Contacted</th> <th>Avoid Int/Cha Decrease</th> <th>True Answer</th> <th>Don't Know</th> <th>Lie</th> <th>Random Answer</th> </tr> <tr> <td>Elemental Plane</td> <td>DC 7/1 week</td> <td>01-34</td> <td>35-62</td> <td>63-83</td> <td>84-100</td> </tr> <tr> <td>Positive/Negative Energy Plane</td> <td>DC 8/1 week</td> <td>01-39</td> <td>40-65</td> <td>66-86</td> <td>87-100</td> </tr> <tr> <td>Astral Plane</td> <td>DC 9/1 week</td> <td>01-44</td> <td>45-67</td> <td>68-88</td> <td>89-100</td> </tr> <tr> <td>Outer Plane, demigod</td> <td>DC 10/2 weeks</td> <td>01-49</td> <td>50-70</td> <td>71-91</td> <td>92-100</td> </tr> <tr> <td>Outer Plane, lesser deity</td> <td>DC 12/3 weeks</td> <td>01-60</td> <td>61-75</td> <td>76-95</td> <td>96-100</td> </tr> <tr> <td>Outer Plane, intermediate deity</td> <td>DC 14/4 weeks</td> <td>01-73</td> <td>74-81</td> <td>82-98</td> <td>99-100</td> </tr> <tr> <td>Outer Plane, greater deity</td> <td>DC 16/5 weeks</td> <td>01-88</td> <td>89-90</td> <td>91-99</td> <td>100</td> </tr> </table></p></div>
+</div>
+<!-- END Spell -->
+
+<div style="float:left; width:170px; margin-left:20px;" class="noPrint">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 RH 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-0032263731732595"
+     data-ad-slot="0145092529"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+
+<div style="margin-left:15px;">
+    <div class="copywrite">Pathfinder is a registered trademark of Paizo Publishing</div>
+    <div class="copywrite">Paizo Spells Database. Copyright 2011 Mike Chopswil, d20pfsrd.com</div>
+    <div class="copywrite">dxContent.com and dxContent spell database filtering tools copyright Brian Dunn, 2013</div>
+</div>
+
+
+</body>
+</html>
