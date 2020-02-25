@@ -24,13 +24,18 @@
 
     /*
     // ce code n'a été exécuté qu'une seule fois pour télécharger tout les spells
+    //Nous avons fait ça car le site était souvent inacessible et pour tester le programme ce
+    //n'était pas pratique
+    //Ces fichier sont déjà présent dans le dossier donc il n'y a pas besoin de la refaire tourner
         for(i <- 1 to size) { //1975
           var stringUrl = "http://www.dxcontent.com/SDB_SpellBlock.asp?SDBID=" + i
           val html = Source.fromURL(stringUrl)
           val htmlString = html.mkString
           reflect.io.File("Spells/" + i).writeAll(htmlString)
         }
-        */
+
+    */
+
 
     for(i <- 1 to size) { //1975
 
