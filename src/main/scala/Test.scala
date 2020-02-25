@@ -9,6 +9,7 @@
   import scala.collection.mutable.ArrayBuffer
   import org.apache.spark.sql.{Row, SparkSession}
   import org.apache.spark.sql.types.{BooleanType, StringType, StructField, StructType}
+  import org.apache.spark.sql.DataFrame
 
 
 
@@ -18,7 +19,7 @@
     implicit val codec = Codec("UTF-8")
     codec.onMalformedInput(CodingErrorAction.REPLACE)
     codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
-    var size = 200//1975
+    var size = 1975//1975
     var spellArray = new Array[Spell](size)
 
     for(i <- 1 to size) { //1975
@@ -63,7 +64,8 @@
     val resultatRDD = sc.makeRDD(spellArray) //met les data dans la rdd
 
 
-    resultatRDD.filter(element => element.components.equals(" V"))
+    println(("\nAvec RDD\n"))
+     resultatRDD.filter(element => element.components.equals(" V"))
       .filter(element => element.levelSorcerer.contains("sorcerer"))
       .filter(element => {
         val indexLevel = element.levelSorcerer.indexOf("sorcerer/wizard ") + "sorcerer/wizard ".length
@@ -72,7 +74,6 @@
       }).foreach(element => println(element.nameSpell))
 
 
-    val sqlCoext = new org.apache.spark.sql.SQLContext(sc)
     val sqlContext = SparkSession
       .builder()
       .appName("sessionBD")
@@ -89,11 +90,16 @@
                                 element.spellResistant))
 
     val dataFrame = sqlContext.createDataFrame(rowRDD,schema)
-    dataFrame.createOrReplaceGlobalTempView("allSpell")
-    //dataFrame.collect().foreach(x => println(x))
-    dataFrame.show()
-    val results = sqlContext.sql("SELECT * FROM allSpell ")
-    results.show()
-    //val resultsfil = sqlContext.sql("SELECT nameSpell FROM allSpell WHERE  ")
-    //println(results);
+
+    dataFrame.createTempView("allSpell")
+
+    //println("DataFrame")
+   // dataFrame.show()
+
+   val requete = sqlContext.sql("SELECT nameSpell FROM allSpell WHERE components = ' V' AND " +
+     "( levelSorcere  LIKE '%sorcerer/wizard 1%' OR levelSorcere  LIKE '%sorcerer/wizard 2%' OR levelSorcere  LIKE '%sorcerer/wizard 3%' OR levelSorcere  LIKE '%sorcerer/wizard 4%') ")
+    //val nbResult = requete.count()
+
+    println(("\nAvec SQL : \n"))
+    requete.collect.foreach(println)
   }
